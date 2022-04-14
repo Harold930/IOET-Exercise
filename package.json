@@ -1,0 +1,26 @@
+{
+  "name": "ioet-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../src/main/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harold930/IOET-Exercise.git"
+  },
+  "keywords": [],
+  "author": "Harold Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harold930/IOET-Exercise/issues"
+  },
+  "homepage": "https://github.com/Harold930/IOET-Exercise#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
