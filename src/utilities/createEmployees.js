@@ -3,8 +3,6 @@ const createDate = require('./createDate.js');
 
 
 let name = '';
-let entryDate = '';
-let exitDate = '';
 let entryTime = '';
 let entryMinute = '';
 let exitTime = '';

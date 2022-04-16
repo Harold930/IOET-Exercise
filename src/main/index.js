@@ -44,8 +44,22 @@ const data = fs.readFileSync(path.join(__dirname,'../data/schedule.txt'));
 let arrayEmployeesAndSchedule = data.toString().split('\n');
 
 let arrayEmployees = createEmployees(arrayEmployeesAndSchedule);
-// arrayEmployees.forEach((ele) => console.log(ele));
-// // console.log(arrayEmployees);
+//  arrayEmployees.forEach((ele) => console.log(ele));
+
+
+  function createTable(employees){
+    let i = 0;
+    while (i <= employees.length) {
+        for(let j = i + 1; j < employees.length; j++){
+            Employee.prototype.getPairsSchedule(employees[i], employees[j])
+            console.log(employees[i].name, employees[j].name);
+        }
+        i++;
+    }
+  }
+
+ createTable(arrayEmployees);
+//   console.log(arrayEmployees);
 
 //Una vez creados los empleados con sus respectivos nombres y los horarios a los que asistieron 
 // a la oficina en esa semana, lo que procede es hacer la lógica para saber cuántas veces se cruzaron

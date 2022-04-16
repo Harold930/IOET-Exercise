@@ -2,6 +2,9 @@
 
 function createDate(day, entryTime, entryMinute, exitTime, exitMinute, schedule){
 
+let entryDate = '';
+let exitDate = '';
+
 switch (day) {
     case 'MO':
         entryDate = new Date(2022, 03, 18, entryTime, entryMinute);
