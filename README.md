@@ -14,6 +14,11 @@ To run the program local way, follow next instructions:
 
 4. To run tests type 'npm test'
 
+
+## Software Architecture 
+
+I have used MVC software architecture, making an analogy where directory /data is the Model, /main is the View and /utilities is the Controller, all this inside /src directory. Also, the solution has a directory called /test there are the tests that given truthly to my solution.
+
 ## Solution summary
 
 When I face this kind of exercises I like to use the divide and conquer technique, divide the general problem into smaller problems and solve them one by one until I reach the final solution. Here are the problems posed:
@@ -28,7 +33,3 @@ When I face this kind of exercises I like to use the divide and conquer techniqu
 
 * We move on to the most important part of the solution process, creating the asked for information. For that, the Employee class has a method called 'getPairsSchedule' that shows in console the pair of employees, the times and the amount of time they crossed. 
 
-## Software Architecture 
-
-
-I have used MVC software architecture, making an analogy where directory /data is the Model, /main is the View and /utilities is the Controller, all this inside /src directory. Also, the solution has a directory called /test there are the tests that given truthly to my solution.
