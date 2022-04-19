@@ -66,6 +66,10 @@ switch (day) {
         break;
 }
 
+    return {
+        entry: entryDate,
+        exit: exitDate
+    };
 }
 
 module.exports = createDate;
